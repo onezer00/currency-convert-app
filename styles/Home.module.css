@@ -3,6 +3,7 @@
 }
 
 .main {
+  background: linear-gradient(to right, #FBB564, #FAD7AF, #C7AB8B);
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;

@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <div className="header">
             <Link href='/'>
-                <Image src="/currency-converter.png" alt="" className="logo" data-aos="fade-right"
+                <Image src="/currency-converter.png" alt="" width={60} height={60} className="logo" data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
                 />

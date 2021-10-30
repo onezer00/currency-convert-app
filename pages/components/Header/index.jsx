@@ -4,8 +4,9 @@ import Link from 'next/link';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
-export default () => {
+const Header = () => {
     useEffect(() => {
         Aos.init({
             duration: 2000
@@ -15,7 +16,7 @@ export default () => {
     return(
         <div className="header">
             <Link href='/'>
-                <img src="/currency-converter.png" alt="" className="logo" data-aos="fade-right"
+                <Image src="/currency-converter.png" alt="" className="logo" data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
                 />
@@ -40,3 +41,5 @@ export default () => {
         </div>
     );
 }
+
+export default Header;

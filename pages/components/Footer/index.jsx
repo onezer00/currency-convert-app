@@ -1,15 +1,13 @@
 import React from 'react';
 
-export default () => {
+const Footer = () => {
     return (
         <footer className="footer">
-            <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
+            <a>
             Powered by Oner
             </a>
         </footer>
     )
 }
+
+export default Footer;
